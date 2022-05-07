@@ -1,5 +1,11 @@
 .swiper {
+	position: absolute;
+	left: 88px;
+	top: 22px;
 	overflow: hidden;
+	width: 568px;
+	height: 355px;
+	background-color: rgb(0, 0, 0);
 }
 .swiper-wrapper {
 	width: 100%;
@@ -8,9 +14,13 @@
 	display: flex;
 	position: relative;
 }
+
+.swiper-slide {
+	color: white;
+}
 .swiper-vertical {
 	.swiper-wrapper {
-		flex-direction: column;
+		// flex-direction: column;
 	}
 }
 .swiper-autoheight {

@@ -1,12 +1,58 @@
 <!DOCTYPE html>
 <html lang="ru">
 	@@include('html/_head.htm',{
-	"title":"Главная"
+	"title":"FreeCode"
 	})
 	<body>
 		<div class="wrapper">
 			@@include('html/_header.htm',{})
 			<main class="page">
+				<section class="heading">
+					<div class="heading__container">
+						<div class="heading-wrapper">
+							<div class="heading-left">
+								<h1 class="heading-left__title">Профессиональная разработка <span>сайтов</span></h1>
+								<p class="heading-left__subtitle">Создание и разработка сайтов всех типов 
+									для малого и среднего бизнеса</p>
+								<a href="#" class="wave-btn">
+									<span class="wave-btn__text">Оставить заявку</span>
+									<span class="wave-btn__waves"></span>
+								</a>
+							</div>
+							<div class="heading-right">
+								<img src="@img/apple-laptop.png" alt="img" class="heading-right__image">
+								<div class="heading__slider swiper">
+									<div class="heading__wrapper swiper-wrapper">
+										<div class="heading__slide swiper-slide">
+											<img src="@img/heading-laptop-img/01.png" alt="">
+										</div>
+										<div class="heading__slide swiper-slide">
+											<img src="@img/heading-laptop-img/02.png" alt="">
+										</div>
+										<div class="heading__slide swiper-slide">
+											<img src="@img/heading-laptop-img/03.png" alt="">
+										</div>
+										<div class="heading__slide swiper-slide">
+											<img src="@img/heading-laptop-img/04.png" alt="">
+										</div>
+										<div class="heading__slide swiper-slide">
+											<img src="@img/heading-laptop-img/05.png" alt="">
+										</div>
+										<div class="heading__slide swiper-slide">
+											<img src="@img/heading-laptop-img/06.png" alt="">
+										</div>
+										<div class="heading__slide swiper-slide">
+											<img src="@img/heading-laptop-img/07.png" alt="">
+										</div>
+									</div>
+									<!-- <div class="swiper-pagination"></div> -->
+								</div>
+								<div class="heading-right__circle-top"></div>
+								<div class="heading-right__circle-bottom"></div>
+							</div>
+						</div>				
+					</div>
+				</section>
 			</main>
 			@@include('html/_footer.htm',{})
 		</div>
