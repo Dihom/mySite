@@ -1,4 +1,6 @@
-//====================================================================================================
+
+// Heading start ====================================================================================================
+
 .heading {
     margin-top: 80px;
 }
@@ -33,10 +35,6 @@
     color: #021206;
     opacity: 0.7;
 }
-.heading-left__button {
-}
-.button {
-}
 
 .heading-right {
     position: relative;    
@@ -61,7 +59,6 @@
     100% {
         transform: rotate(360deg);
         left: 585px;
-
     }
 }
 
@@ -116,6 +113,30 @@
     animation: circleBottom 12s linear infinite alternate-reverse;
 }
 
+//Heading end====================================================================================================
+
+.running-line {
+    
+
+    // .running-line__wrapper
+    &__wrapper {
+        margin-top: 150px;
+        margin-bottom: 115px;
+        height: 163px;
+        background: #474bff;
+        background: -webkit-linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+        background: linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+
+    }
+
+    // .running-line__text
+    &__text {
+    }
+}
 
 
-//====================================================================================================
+//Running-line start====================================================================================================
+
+
+
+//Running-line end====================================================================================================
