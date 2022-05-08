@@ -115,27 +115,38 @@
 
 //Heading end====================================================================================================
 
-.running-line {
-    
-
-    // .running-line__wrapper
-    &__wrapper {
-        margin-top: 150px;
-        margin-bottom: 115px;
-        height: 163px;
-        background: #474bff;
-        background: -webkit-linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
-        background: linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
-
-    }
-
-    // .running-line__text
-    &__text {
-    }
-}
-
 
 //Running-line start====================================================================================================
+.program {
+    margin-top: 120px;
+    background: #474bff;
+    background: -webkit-linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+    background: linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+
+    // .program__container
+    &__container {
+    }
+}
+.program-wrapper {
+    height: 163px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    // .program-wrapper__image
+    &__image {
+        width: 170px;
+    }
+
+    .yandex {
+    width: 110px;
+    }
+
+    .wordpress, .joomla, .opencart {
+        width: 190px;
+    }
+    
+}
 
 
 
